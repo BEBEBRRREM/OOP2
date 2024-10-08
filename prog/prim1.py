@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
+
 class Rational:
     def __init__(self, a=0, b=1):
         a = int(a)
@@ -144,6 +146,8 @@ class Rational:
            return not self.__gt__(rhs)
        else:
            return False
+       
+       
 if __name__ == '__main__':
     r1 = Rational(3, 4)
     print(f"r1 = {r1}")
